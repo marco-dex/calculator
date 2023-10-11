@@ -1,0 +1,26 @@
+#body {
+    height: 300px; 
+    width: 200px;
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    flex: 1 0 50px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.button:active {
+    background-color: lightgrey;
+    font-weight: 900;
+}
+
+#clear-btn {
+    margin-top: 40px;
+}
+
